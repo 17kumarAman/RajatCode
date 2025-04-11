@@ -1,5 +1,5 @@
 "use client"
-import "./online.css";
+import "./Online.css";
 
 export default function WhyChoose() {
   return (

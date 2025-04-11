@@ -1,6 +1,6 @@
 "use client"
 import React from "react";
-import "./menu.css";
+import "./Menu.css";
 // import { FaGlobe, FaPen, FaTachometerAlt, FaLayerGroup, FaCogs, FaSync } from "react-icons/fa"; 
 
 const HeadlessCommerce = () => {
