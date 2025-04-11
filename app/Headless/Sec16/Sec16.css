@@ -1,0 +1,54 @@
+.samsung-container {
+    background-color: #f8fcf9;
+    padding: 60px 20px;
+    font-family: sans-serif;
+    color: #111;
+  }
+  
+  .samsung-wrapper {
+    max-width: 1380px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+  
+  @media (min-width: 768px) {
+    .samsung-wrapper {
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-around;
+    }
+  }
+  
+  .samsung-text {
+    flex: 1;
+  }
+  
+  .samsung-heading {
+    font-size: 45px !important;
+    font-weight: 400 !important;
+    line-height: 1.1;
+    margin-bottom: 20px;
+  }
+  
+  .samsung-description {
+    font-size: 17px;
+    color: #555;
+    padding: 20px 0px 0px 0px;
+  }
+  
+  .samsung-image-box {
+    flex: 1;
+    display: flex;
+    justify-content: end;
+  }
+  
+  .samsung-image {
+    max-width: 100%;
+    width: 628px;
+    height: auto;
+    border-radius: 8px;
+    /* box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); */
+  }
+  

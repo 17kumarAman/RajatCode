@@ -1,0 +1,167 @@
+*{
+    font-family: 'Poppins',sans-serif;
+}
+
+
+.headless-pwa {
+    background-color: white;
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .headless-pwa-title {
+    font-size: 30px !important;
+    font-weight: 500;
+    color: #222;
+  }
+  
+  .headless-pwa-bold {
+    font-weight: bold;
+  
+  }
+  .headless-pwa-bolld {
+    font-weight: 600;
+    font-size: 20px;
+  }
+  
+
+  
+  .headless-pwa-tabs {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    padding: 17px;
+    background-color: #6b46c1;
+  }
+  
+  .headless-pwa-tab {
+    background-color: #6b46c1;
+    color: white;
+    padding: 10px 20px;
+    font-weight: 500;
+    font-size: 22px;
+    margin: 5px;
+    border-radius: 5px;
+  }
+  
+  .headless-pwa-content {
+    display: flex;
+    flex-direction: row !important;
+    justify-content: space-around !important;
+    align-items: center;
+    margin-top: 40px;
+    padding: 0px 33px 0px 33px;
+    gap: 20px;
+  }
+
+  .headless-pwa-text-section {
+    max-width: 600px !important;
+    text-align: left;
+  }
+  
+  .headless-pwa-text-section h2 {
+    font-size: 24px;
+    font-weight: 500;
+    color: #222;
+  }
+  
+  .headless-pwa-text-section p {
+    /* margin-top: 10px; */
+    color: #555;
+    font-size: 19px;
+    line-height: 1.6;
+  }
+  
+  .headless-pwa-image-section {
+    margin-top: 20px;
+  }
+  
+  .headless-pwa-image-section img {
+    width: 100%;
+    max-width: 250px;
+  }
+
+  .headless-pwa-tab.active {
+    background-color: #ffff;
+    color: #6b46c1;
+    transform: scale(1.05);
+  }
+  .headless-pwa-tab {
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+  
+  /* Responsive: Tablet */
+  @media (min-width: 768px) {
+    .headless-pwa-content {
+      flex-direction: column;
+     
+      align-items: center;
+    }
+  
+    .headless-pwa-text-section {
+      max-width: 50%;
+    }
+  
+    .headless-pwa-image-section {
+      max-width: 40%;
+    }
+  }
+  
+  /* Responsive: Desktop */
+  @media (min-width: 1024px) {
+    .headless-pwa {
+      padding: 70px 50px;
+    }
+  
+    .headless-pwa-title {
+      font-size: 28px;
+    }
+  
+    .headless-pwa-text-section h2 {
+      font-size: 24px;
+    }
+  
+    .headless-pwa-image-section img {
+      max-width: 300px;
+    }
+  }
+  @media (min-width: 425px) {
+    .headless-pwa-content {
+      flex-direction: column;
+     
+      align-items: center;
+    }
+  
+    .headless-pwa-text-section {
+      max-width: 50%;
+    }
+  
+    .headless-pwa-image-section {
+      max-width: 40%;
+    }
+    .headless-pwa-image-section img {
+        max-width: 270px;
+      }
+  }
+  @media (min-width: 375px) {
+    .headless-pwa-content {
+      flex-direction: column;
+     
+      align-items: center;
+    }
+  
+    .headless-pwa-text-section {
+      max-width: 50%;
+    }
+  
+    .headless-pwa-image-section {
+      max-width: 40%;
+    }
+      .headless-pwa-image-section img {
+      max-width: 300px;
+    }
+  }
+  
+  

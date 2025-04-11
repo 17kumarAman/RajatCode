@@ -1,0 +1,145 @@
+.moniter-commerce-section {
+    padding: 60px 20px;
+    background-color: #fff;
+    font-family: "Segoe UI", sans-serif;
+    text-align: center;
+  }
+  
+  .moniter-commerce-title {
+    font-size: 1.9rem;
+    font-weight: 400;
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    margin-bottom: 40px;
+    color: #111;
+  }
+  
+  .moniter-commerce-title span {
+    font-weight: bold;
+  }
+  
+  .moniter-comparison-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+  }
+  
+  .moniter-comparison-box {
+    flex: 1 1 420px;
+    max-width: 500px;
+    background: #f9f9f9;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  }
+  
+  .moniter-comparison-header {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+  }
+  
+  .moniter-traditional,
+  .moniter-headless {
+    background-color: #7b3fe4;
+  }
+  
+  .moniter-comparison-image {
+    width: 100%;
+    max-width: 330px;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  .moniter-comparison-list {
+    text-align: left;
+    padding-left: 10px;
+    list-style: none;
+    font-size: 1.1rem;
+    color: #333;
+  }
+  
+  .moniter-comparison-list li {
+    margin: 10px 0;
+    line-height: 1.8rem;
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Icons */
+  .moniter-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 27px;
+    height: 27px;
+    border-radius: 50%;
+    font-size: 12px;
+    margin-right: 10px;
+    color: white;
+    flex-shrink: 0;
+  }
+  
+  .moniter-icon-red {
+    background-color: #e74c3c;
+  }
+  
+  .moniter-icon-green {
+    background-color: #2ecc71;
+  }
+  
+  /* ---------- Responsive Section Below ---------- */
+  
+  @media (max-width: 768px) {
+    .moniter-commerce-title {
+      font-size: 1.5rem;
+      padding: 0 10px;
+    }
+  
+    .moniter-comparison-box {
+      flex: 1 1 100%;
+      max-width: 100%;
+    }
+  
+    .moniter-comparison-list {
+      font-size: 1rem;
+    }
+  
+    .moniter-comparison-image {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .moniter-commerce-section {
+      padding: 40px 15px;
+    }
+  
+    .moniter-commerce-title {
+      font-size: 1.3rem;
+      margin-bottom: 30px;
+    }
+  
+    .moniter-comparison-header {
+      font-size: 1.2rem;
+      padding: 16px;
+    }
+  
+    .moniter-icon {
+      width: 24px;
+      height: 24px;
+      font-size: 10px;
+      margin-right: 8px;
+    }
+  
+    .moniter-comparison-list {
+      font-size: 0.95rem;
+    }
+  }
+  

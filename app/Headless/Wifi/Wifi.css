@@ -1,0 +1,181 @@
+.wifi {
+    padding: 4rem 1.5rem;
+    text-align: center;
+    background-color: #fff;
+  }
+  
+  .wifi-title {
+    font-size: 2.7rem;
+    font-weight: 400;
+    color: #111;
+  }
+  
+  .wifi-stats {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 2rem;
+    flex-wrap: wrap;
+  }
+  
+  .wifi-stat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 260px;
+  }
+  
+  .wifi-number {
+    font-size: 4rem;
+    color: #0c61ff;
+    font-weight: bold;
+  }
+  
+  .wifi-label {
+    margin-top: 1rem;
+    padding: 0.6rem 4.5rem;
+    background-color: #397eff;
+    border-radius: 2rem;
+    font-weight: 400;
+    font-size: 0.95rem;
+    width: 100%;
+    color: #111;
+    white-space: nowrap;
+  }
+  
+  /* ✅ Testimonial Section */
+  .testimonial {
+    padding: 4rem 1.5rem;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-start;
+    gap: 2rem;
+    flex-wrap: wrap;
+    text-align: left;
+  }
+  
+  .testimonial-icon {
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 80px;
+    gap: 30px;
+  }
+  
+  .testimonial-icon svg {
+    color: #555;
+    width: 40px;
+    height: 40px;
+    margin-top: 0.2rem;
+  }
+  
+  .testimonial-content {
+    flex: 1;
+    min-width: 250px;
+  }
+  
+  .testimonial-text {
+    color: #111;
+    margin-bottom: 2rem;
+    font-size: 2.1rem;
+    line-height: 1.4;
+    max-width: 900px;
+    letter-spacing: -0.015em;
+    font-weight: 400;
+  }
+  
+  .testimonial-author {
+    font-size: 1rem;
+    color: #444;
+    padding-left: 70px;
+  }
+  
+  .testimonial-author strong {
+    display: block;
+    font-weight: 600;
+    color: #111;
+    margin-bottom: 0.2rem;
+  }
+  
+  .testimonial-role {
+    color: #777;
+  }
+  
+  /* ✅ Responsive layout */
+  @media (max-width: 1024px) {
+    .testimonial-text {
+      font-size: 1.9rem;
+      max-width: 100%;
+    }
+  
+    .testimonial-author {
+      padding-left: 20px;
+    }
+  
+    .wifi-stat {
+      width: 45%;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .testimonial {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      gap: 1.5rem;
+    }
+  
+    .testimonial-icon {
+      padding-top: 0;
+      margin-bottom: 1rem;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .testimonial-content {
+      width: 100%;
+      text-align: center;
+    }
+  
+    .testimonial-text {
+      font-size: 1.65rem;
+      line-height: 1.5;
+      padding: 0 1rem;
+    }
+  
+    .testimonial-author {
+      padding: 0;
+    }
+  
+    .wifi-label {
+      padding: 10px 20px;
+      margin: auto;
+    }
+  
+    .wifi-title {
+      font-size: 2rem;
+    }
+  
+    .wifi-stat {
+      width: 100%;
+      margin-bottom: 2rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .wifi-number {
+      font-size: 3rem;
+    }
+  
+    .wifi-label {
+      font-size: 0.85rem;
+      padding: 8px 0px;
+    }
+  
+    .testimonial-text {
+      font-size: 1.5rem;
+    }
+  }
+  
