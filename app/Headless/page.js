@@ -30,7 +30,7 @@ const page = () => {
 <Online/>
 <Development/>
 <Upgrad/>
-<Cycle/>
+{/* <Cycle/> */}
 <Wifi/>
 <Diff/>
 <Sec16/>
